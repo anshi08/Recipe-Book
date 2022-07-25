@@ -16,7 +16,7 @@ import Recipe from './components/recipe'
   const getSearch = e =>{
      e.preventDefault()
      setQuery(search)
-     setSearch=''
+     setSearch('')
   }
  
 
